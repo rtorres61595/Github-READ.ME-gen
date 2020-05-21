@@ -1,0 +1,26 @@
+{
+  "name": "github-read.me-gen",
+  "version": "1.0.0",
+  "description": "This is a Github README generator",
+  
+  "main": "app.js",
+  
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtorres61595/Github-READ.ME-gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtorres61595/Github-READ.ME-gen/issues"
+  },
+  "homepage": "https://github.com/rtorres61595/Github-READ.ME-gen#readme"
+}
