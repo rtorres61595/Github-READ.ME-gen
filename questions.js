@@ -39,7 +39,7 @@ module.exports = {
         {
         type: "input",
         name: "installation",
-        message: "What did you instal?",
+        message: "What do you need to install for the project?",
         validate: answer => {
             if (answer !== "") {
               return true;
@@ -51,7 +51,7 @@ module.exports = {
         {
         type: "input",
         name: "usage",
-        message: "usage ",
+        message: "what is the usage for the project",
         validate: answer => {
             if (answer !== "") {
               return true;
@@ -63,7 +63,7 @@ module.exports = {
         {
         type: "input",
         name: "license",
-        message: "license",
+        message: "Any license used?",
         validate: answer => {
             if (answer !== "") {
               return true;
@@ -75,7 +75,7 @@ module.exports = {
         {
             type: "input",
             name: "contributing",
-            message: "Who will be contributing in the project",
+            message: "Who will be contributing in the project?",
             validate: answer => {
                 if (answer !== "") {
                   return true;
@@ -87,7 +87,7 @@ module.exports = {
         {
         type: "input",
         name: "test",
-        message: "test",
+        message: "What kind of test is runned?",
         validate: answer => {
             if (answer !== "") {
               return true;
@@ -98,8 +98,8 @@ module.exports = {
         },
         {
         type: "input",
-        name: "Questions",
-        message: "questions",
+        name: "questions",
+        message: "Questions",
         validate: answer => {
             if (answer !== "") {
               return true;
