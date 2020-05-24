@@ -61,16 +61,11 @@ module.exports = {
     
         },
         {
-        type: "input",
+        type: "list",
         name: "license",
         message: "Any license used?",
-        validate: answer => {
-            if (answer !== "") {
-              return true;
-            }
-            return "Please enter at least one character.";
-          }
-    
+        choices: ["MIT", "Apache", "none"]
+  
         },
         {
             type: "input",
